@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Slackey" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+	<title>BODYGUARD</title>
+</head>
+<body> 
+	<div id="game">
+		<audio id="myAudio1">
+			<source src="audio/scream.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="myAudio">
+			<source src="audio/1.mp3" type="audio/mpeg">
+		</audio>
+		<div id="heart"><img src="img/heart.png" id="heart1"></div>
+		<div id="health"></div>
+		<div id="shoe"><img src="img/shoe.png" class="shoe"></div>
+		<div class="man">
+			<img src="img/calm.png" id="man1" class="man1">
+			<img src="img/chair.png" id="chair">
+			<img src="img/table.png" id="table">
+		</div>
+		<p id="lose">MAN DIED</p>
+		<button id="button" onclick="clicked()">PLAY AGAIN</button>
+		<div id="rock"><img src="img/stone.png" class="stone"></div>
+		<button id="button1" onclick="klicked()">START GAME</button>
+		<p id="prevent">PREVENTED SHOES : <span id="prevented">0</span></p>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+#button1 {
+	background-color: #B2DBD5; 
+	border: none;
+	color: #2B616D;
+	width: 450px;
+	height: 200px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 55px;
+	font-family:"Frijole",cursive;
+	border-radius: 60px;
+	margin:0 0 100px 360px;
+	bottom: 150px;
+	position: absolute;
+	outline: none;
+}
+#button1:hover {
+	background-color: #82ABA5;
+	color: #11313D;
+	cursor: pointer;
+	box-shadow: 10px 10px 10px #84866C ;
+}
+#button {
+	background-color: #E4E68C; 
+	border: none;
+	color: #3F6C45;
+	width: 450px;
+	height: 200px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 55px;
+	font-family:"Shojumaru",cursive;
+	border-radius: 100px;
+	margin:0 0 0 400px;
+	bottom: 150px;
+	position: absolute;
+	outline: none;
+}
+#button:hover {
+	background-color: #B4B64C;
+	color: #1F2C15;
+	cursor: pointer;
+	box-shadow: 15px 15px 15px #84866C ;
+}
+#game {
+	width: 1200px;
+	height: 700px;
+	margin: 100px auto;
+	border: 2px solid black;
+	position:relative;
+	background-image: url("img/conferance.png");
+	background-size: 1200px 700px;
+	border-radius: 20px;
+	box-shadow: 15px 15px 15px #84866C ;
+}
+#shoe {
+	margin-top:70px;
+	width: 50px;
+	height: 20px;
+	position: absolute;
+}
+.shoe {
+	width: 50px;
+	height: 20px;
+}
+.man {
+	margin-top:40px;
+}
+#table {
+	width: 140px;
+	height: 120px;
+	margin-top: 80px;
+	opacity: 0.8;
+}
+#chair {
+	width: 140px;
+	height: 200px;
+
+}
+.man1 {
+	position: absolute;
+	width: 86px;
+	height: 96px;
+	margin:0 0 100px 55px;
+	z-index: 1;
+}
+#heart {
+	width: 40px;
+	height: 36px;
+	float: left;
+	margin-top: 55px;
+}
+#heart1 {
+	width: 40px;
+	height: 36px;
+}
+#health {
+	margin: 60px 0 0 45px;
+	width:200px;
+	height:20px;
+	background-color:green;
+	border-radius: 8px;
+
+
+}
+#rock {
+	top:675px;
+	height: 25px;
+	width: 25px;
+	position: absolute;
+}
+.stone {
+	width: 25px;
+	height: 25px;
+}
+#lose {
+	color: #FF0009;
+	bottom: 320px;
+	margin-left:430px;
+	font-size: 60px;
+	position: absolute;
+	font-family: "Nosifer",cursive;
+	text-shadow: 3px 3px 10px #FF0000;
+}
+#prevent {
+	font-family: "Freckle Face",cursive;
+	text-shadow: 3px 3px 10px #FF0000;
+	right: 0;
+	top:0;
+	position: absolute;
+	font-size: 40px;
+	margin:10px 320px 400px 300px;
+	color:#EAD72A;
+}
